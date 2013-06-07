@@ -21,6 +21,9 @@
 		2FED7EEB1761817C009C4001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED7ECC1761817C009C4001 /* Foundation.framework */; };
 		2FED7EF31761817C009C4001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7EF11761817C009C4001 /* InfoPlist.strings */; };
 		2FED7EF61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */; };
+		2FED7F0B17618557009C4001 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7F0817618557009C4001 /* UIBarButtonItem+imagedBarButtonItem.m */; };
+		2FED7F0C17618557009C4001 /* UIButton+imagedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7F0A17618557009C4001 /* UIButton+imagedButton.m */; };
+		2FED7F1017618798009C4001 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7F0F17618798009C4001 /* EMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,13 @@
 		2FED7EF21761817C009C4001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2FED7EF41761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCocoaTouchToolbox_DemoTests.h; sourceTree = "<group>"; };
 		2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMCocoaTouchToolbox_DemoTests.m; sourceTree = "<group>"; };
+		2FED7F0717618557009C4001 /* UIBarButtonItem+imagedBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+imagedBarButtonItem.h"; sourceTree = "<group>"; };
+		2FED7F0817618557009C4001 /* UIBarButtonItem+imagedBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+imagedBarButtonItem.m"; sourceTree = "<group>"; };
+		2FED7F0917618557009C4001 /* UIButton+imagedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imagedButton.h"; sourceTree = "<group>"; };
+		2FED7F0A17618557009C4001 /* UIButton+imagedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imagedButton.m"; sourceTree = "<group>"; };
+		2FED7F0D17618634009C4001 /* EMCocoaTouchToolbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCocoaTouchToolbox.h; sourceTree = "<group>"; };
+		2FED7F0E17618798009C4001 /* EMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
+		2FED7F0F17618798009C4001 /* EMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 		2FED7EBE1761817C009C4001 = {
 			isa = PBXGroup;
 			children = (
+				2FED7F0617618557009C4001 /* EMCocoaTouchToolbox */,
 				2FED7ED01761817C009C4001 /* EMCocoaTouchToolbox_Demo */,
 				2FED7EEE1761817C009C4001 /* EMCocoaTouchToolbox_DemoTests */,
 				2FED7EC91761817C009C4001 /* Frameworks */,
@@ -114,6 +125,8 @@
 			children = (
 				2FED7ED91761817C009C4001 /* EMAppDelegate.h */,
 				2FED7EDA1761817C009C4001 /* EMAppDelegate.m */,
+				2FED7F0E17618798009C4001 /* EMViewController.h */,
+				2FED7F0F17618798009C4001 /* EMViewController.m */,
 				2FED7ED11761817C009C4001 /* Supporting Files */,
 			);
 			path = EMCocoaTouchToolbox_Demo;
@@ -150,6 +163,18 @@
 				2FED7EF11761817C009C4001 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FED7F0617618557009C4001 /* EMCocoaTouchToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				2FED7F0717618557009C4001 /* UIBarButtonItem+imagedBarButtonItem.h */,
+				2FED7F0817618557009C4001 /* UIBarButtonItem+imagedBarButtonItem.m */,
+				2FED7F0917618557009C4001 /* UIButton+imagedButton.h */,
+				2FED7F0A17618557009C4001 /* UIButton+imagedButton.m */,
+				2FED7F0D17618634009C4001 /* EMCocoaTouchToolbox.h */,
+			);
+			path = EMCocoaTouchToolbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +289,9 @@
 			files = (
 				2FED7ED71761817C009C4001 /* main.m in Sources */,
 				2FED7EDB1761817C009C4001 /* EMAppDelegate.m in Sources */,
+				2FED7F0B17618557009C4001 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */,
+				2FED7F0C17618557009C4001 /* UIButton+imagedButton.m in Sources */,
+				2FED7F1017618798009C4001 /* EMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +462,7 @@
 				2FED7EFB1761817C009C4001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FED7EFC1761817C009C4001 /* Build configuration list for PBXNativeTarget "EMCocoaTouchToolbox_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +471,7 @@
 				2FED7EFE1761817C009C4001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
