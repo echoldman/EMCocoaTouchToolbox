@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FED7ECB1761817C009C4001 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED7ECA1761817C009C4001 /* UIKit.framework */; };
+		2FED7ECD1761817C009C4001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED7ECC1761817C009C4001 /* Foundation.framework */; };
+		2FED7ECF1761817C009C4001 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED7ECE1761817C009C4001 /* CoreGraphics.framework */; };
+		2FED7ED51761817C009C4001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7ED31761817C009C4001 /* InfoPlist.strings */; };
+		2FED7ED71761817C009C4001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7ED61761817C009C4001 /* main.m */; };
+		2FED7EDB1761817C009C4001 /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7EDA1761817C009C4001 /* EMAppDelegate.m */; };
+		2FED7EDD1761817C009C4001 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7EDC1761817C009C4001 /* Default.png */; };
+		2FED7EDF1761817C009C4001 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7EDE1761817C009C4001 /* Default@2x.png */; };
+		2FED7EE11761817C009C4001 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7EE01761817C009C4001 /* Default-568h@2x.png */; };
+		2FED7EE91761817C009C4001 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED7EE81761817C009C4001 /* SenTestingKit.framework */; };
+		2FED7EEA1761817C009C4001 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED7ECA1761817C009C4001 /* UIKit.framework */; };
+		2FED7EEB1761817C009C4001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FED7ECC1761817C009C4001 /* Foundation.framework */; };
+		2FED7EF31761817C009C4001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7EF11761817C009C4001 /* InfoPlist.strings */; };
+		2FED7EF61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FED7EEC1761817C009C4001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FED7EBF1761817C009C4001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FED7EC61761817C009C4001;
+			remoteInfo = EMCocoaTouchToolbox_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FED7EC71761817C009C4001 /* EMCocoaTouchToolbox_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMCocoaTouchToolbox_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FED7ECA1761817C009C4001 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FED7ECC1761817C009C4001 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FED7ECE1761817C009C4001 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FED7ED21761817C009C4001 /* EMCocoaTouchToolbox_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMCocoaTouchToolbox_Demo-Info.plist"; sourceTree = "<group>"; };
+		2FED7ED41761817C009C4001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FED7ED61761817C009C4001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FED7ED81761817C009C4001 /* EMCocoaTouchToolbox_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMCocoaTouchToolbox_Demo-Prefix.pch"; sourceTree = "<group>"; };
+		2FED7ED91761817C009C4001 /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		2FED7EDA1761817C009C4001 /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		2FED7EDC1761817C009C4001 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2FED7EDE1761817C009C4001 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2FED7EE01761817C009C4001 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2FED7EE71761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMCocoaTouchToolbox_DemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FED7EE81761817C009C4001 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2FED7EF01761817C009C4001 /* EMCocoaTouchToolbox_DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMCocoaTouchToolbox_DemoTests-Info.plist"; sourceTree = "<group>"; };
+		2FED7EF21761817C009C4001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FED7EF41761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCocoaTouchToolbox_DemoTests.h; sourceTree = "<group>"; };
+		2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMCocoaTouchToolbox_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FED7EC41761817C009C4001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED7ECB1761817C009C4001 /* UIKit.framework in Frameworks */,
+				2FED7ECD1761817C009C4001 /* Foundation.framework in Frameworks */,
+				2FED7ECF1761817C009C4001 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FED7EE31761817C009C4001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED7EE91761817C009C4001 /* SenTestingKit.framework in Frameworks */,
+				2FED7EEA1761817C009C4001 /* UIKit.framework in Frameworks */,
+				2FED7EEB1761817C009C4001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FED7EBE1761817C009C4001 = {
+			isa = PBXGroup;
+			children = (
+				2FED7ED01761817C009C4001 /* EMCocoaTouchToolbox_Demo */,
+				2FED7EEE1761817C009C4001 /* EMCocoaTouchToolbox_DemoTests */,
+				2FED7EC91761817C009C4001 /* Frameworks */,
+				2FED7EC81761817C009C4001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FED7EC81761817C009C4001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FED7EC71761817C009C4001 /* EMCocoaTouchToolbox_Demo.app */,
+				2FED7EE71761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FED7EC91761817C009C4001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FED7ECA1761817C009C4001 /* UIKit.framework */,
+				2FED7ECC1761817C009C4001 /* Foundation.framework */,
+				2FED7ECE1761817C009C4001 /* CoreGraphics.framework */,
+				2FED7EE81761817C009C4001 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FED7ED01761817C009C4001 /* EMCocoaTouchToolbox_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2FED7ED91761817C009C4001 /* EMAppDelegate.h */,
+				2FED7EDA1761817C009C4001 /* EMAppDelegate.m */,
+				2FED7ED11761817C009C4001 /* Supporting Files */,
+			);
+			path = EMCocoaTouchToolbox_Demo;
+			sourceTree = "<group>";
+		};
+		2FED7ED11761817C009C4001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FED7ED21761817C009C4001 /* EMCocoaTouchToolbox_Demo-Info.plist */,
+				2FED7ED31761817C009C4001 /* InfoPlist.strings */,
+				2FED7ED61761817C009C4001 /* main.m */,
+				2FED7ED81761817C009C4001 /* EMCocoaTouchToolbox_Demo-Prefix.pch */,
+				2FED7EDC1761817C009C4001 /* Default.png */,
+				2FED7EDE1761817C009C4001 /* Default@2x.png */,
+				2FED7EE01761817C009C4001 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FED7EEE1761817C009C4001 /* EMCocoaTouchToolbox_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FED7EF41761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.h */,
+				2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */,
+				2FED7EEF1761817C009C4001 /* Supporting Files */,
+			);
+			path = EMCocoaTouchToolbox_DemoTests;
+			sourceTree = "<group>";
+		};
+		2FED7EEF1761817C009C4001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FED7EF01761817C009C4001 /* EMCocoaTouchToolbox_DemoTests-Info.plist */,
+				2FED7EF11761817C009C4001 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FED7EC61761817C009C4001 /* EMCocoaTouchToolbox_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FED7EF91761817C009C4001 /* Build configuration list for PBXNativeTarget "EMCocoaTouchToolbox_Demo" */;
+			buildPhases = (
+				2FED7EC31761817C009C4001 /* Sources */,
+				2FED7EC41761817C009C4001 /* Frameworks */,
+				2FED7EC51761817C009C4001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMCocoaTouchToolbox_Demo;
+			productName = EMCocoaTouchToolbox_Demo;
+			productReference = 2FED7EC71761817C009C4001 /* EMCocoaTouchToolbox_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FED7EE61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FED7EFC1761817C009C4001 /* Build configuration list for PBXNativeTarget "EMCocoaTouchToolbox_DemoTests" */;
+			buildPhases = (
+				2FED7EE21761817C009C4001 /* Sources */,
+				2FED7EE31761817C009C4001 /* Frameworks */,
+				2FED7EE41761817C009C4001 /* Resources */,
+				2FED7EE51761817C009C4001 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FED7EED1761817C009C4001 /* PBXTargetDependency */,
+			);
+			name = EMCocoaTouchToolbox_DemoTests;
+			productName = EMCocoaTouchToolbox_DemoTests;
+			productReference = 2FED7EE71761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FED7EBF1761817C009C4001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Echoldman;
+			};
+			buildConfigurationList = 2FED7EC21761817C009C4001 /* Build configuration list for PBXProject "EMCocoaTouchToolbox_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FED7EBE1761817C009C4001;
+			productRefGroup = 2FED7EC81761817C009C4001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FED7EC61761817C009C4001 /* EMCocoaTouchToolbox_Demo */,
+				2FED7EE61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FED7EC51761817C009C4001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED7ED51761817C009C4001 /* InfoPlist.strings in Resources */,
+				2FED7EDD1761817C009C4001 /* Default.png in Resources */,
+				2FED7EDF1761817C009C4001 /* Default@2x.png in Resources */,
+				2FED7EE11761817C009C4001 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FED7EE41761817C009C4001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED7EF31761817C009C4001 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FED7EE51761817C009C4001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FED7EC31761817C009C4001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED7ED71761817C009C4001 /* main.m in Sources */,
+				2FED7EDB1761817C009C4001 /* EMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FED7EE21761817C009C4001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED7EF61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FED7EED1761817C009C4001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FED7EC61761817C009C4001 /* EMCocoaTouchToolbox_Demo */;
+			targetProxy = 2FED7EEC1761817C009C4001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FED7ED31761817C009C4001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FED7ED41761817C009C4001 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FED7EF11761817C009C4001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FED7EF21761817C009C4001 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FED7EF71761817C009C4001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FED7EF81761817C009C4001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FED7EFA1761817C009C4001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FED7EFB1761817C009C4001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FED7EFD1761817C009C4001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMCocoaTouchToolbox_Demo.app/EMCocoaTouchToolbox_Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaTouchToolbox_DemoTests/EMCocoaTouchToolbox_DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2FED7EFE1761817C009C4001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMCocoaTouchToolbox_Demo.app/EMCocoaTouchToolbox_Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Prefix.pch";
+				INFOPLIST_FILE = "EMCocoaTouchToolbox_DemoTests/EMCocoaTouchToolbox_DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FED7EC21761817C009C4001 /* Build configuration list for PBXProject "EMCocoaTouchToolbox_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED7EF71761817C009C4001 /* Debug */,
+				2FED7EF81761817C009C4001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FED7EF91761817C009C4001 /* Build configuration list for PBXNativeTarget "EMCocoaTouchToolbox_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED7EFA1761817C009C4001 /* Debug */,
+				2FED7EFB1761817C009C4001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FED7EFC1761817C009C4001 /* Build configuration list for PBXNativeTarget "EMCocoaTouchToolbox_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED7EFD1761817C009C4001 /* Debug */,
+				2FED7EFE1761817C009C4001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FED7EBF1761817C009C4001 /* Project object */;
+}
