@@ -22,10 +22,11 @@
 		2FED7EF31761817C009C4001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7EF11761817C009C4001 /* InfoPlist.strings */; };
 		2FED7EF61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */; };
 		2FED7F1017618798009C4001 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7F0F17618798009C4001 /* EMViewController.m */; };
-		98E22FB517662D4A00115166 /* EMIndexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FAE17662D4A00115166 /* EMIndexButton.m */; };
-		98E22FB617662D4A00115166 /* EMKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FB017662D4A00115166 /* EMKeyButton.m */; };
-		98E22FB717662D4A00115166 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FB217662D4A00115166 /* UIBarButtonItem+imagedBarButtonItem.m */; };
-		98E22FB817662D4A00115166 /* UIButton+imagedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FB417662D4A00115166 /* UIButton+imagedButton.m */; };
+		98E22FE2176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FD7176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m */; };
+		98E22FE3176638FB00115166 /* EMIndexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FDA176638FB00115166 /* EMIndexButton.m */; };
+		98E22FE4176638FB00115166 /* EMKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FDC176638FB00115166 /* EMKeyButton.m */; };
+		98E22FE5176638FB00115166 /* UIButton+imagedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FDE176638FB00115166 /* UIButton+imagedButton.m */; };
+		98E22FE6176638FB00115166 /* UIImage+Drawn.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FE1176638FB00115166 /* UIImage+Drawn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,15 +61,17 @@
 		2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMCocoaTouchToolbox_DemoTests.m; sourceTree = "<group>"; };
 		2FED7F0E17618798009C4001 /* EMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
 		2FED7F0F17618798009C4001 /* EMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
-		98E22FAC17662D4A00115166 /* EMCocoaTouchToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCocoaTouchToolbox.h; sourceTree = "<group>"; };
-		98E22FAD17662D4A00115166 /* EMIndexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMIndexButton.h; sourceTree = "<group>"; };
-		98E22FAE17662D4A00115166 /* EMIndexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMIndexButton.m; sourceTree = "<group>"; };
-		98E22FAF17662D4A00115166 /* EMKeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeyButton.h; sourceTree = "<group>"; };
-		98E22FB017662D4A00115166 /* EMKeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeyButton.m; sourceTree = "<group>"; };
-		98E22FB117662D4A00115166 /* UIBarButtonItem+imagedBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+imagedBarButtonItem.h"; sourceTree = "<group>"; };
-		98E22FB217662D4A00115166 /* UIBarButtonItem+imagedBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+imagedBarButtonItem.m"; sourceTree = "<group>"; };
-		98E22FB317662D4A00115166 /* UIButton+imagedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imagedButton.h"; sourceTree = "<group>"; };
-		98E22FB417662D4A00115166 /* UIButton+imagedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imagedButton.m"; sourceTree = "<group>"; };
+		98E22FD4176638FB00115166 /* EMCocoaTouchToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCocoaTouchToolbox.h; sourceTree = "<group>"; };
+		98E22FD6176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+imagedBarButtonItem.h"; sourceTree = "<group>"; };
+		98E22FD7176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+imagedBarButtonItem.m"; sourceTree = "<group>"; };
+		98E22FD9176638FB00115166 /* EMIndexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMIndexButton.h; sourceTree = "<group>"; };
+		98E22FDA176638FB00115166 /* EMIndexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMIndexButton.m; sourceTree = "<group>"; };
+		98E22FDB176638FB00115166 /* EMKeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeyButton.h; sourceTree = "<group>"; };
+		98E22FDC176638FB00115166 /* EMKeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeyButton.m; sourceTree = "<group>"; };
+		98E22FDD176638FB00115166 /* UIButton+imagedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imagedButton.h"; sourceTree = "<group>"; };
+		98E22FDE176638FB00115166 /* UIButton+imagedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imagedButton.m"; sourceTree = "<group>"; };
+		98E22FE0176638FB00115166 /* UIImage+Drawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawn.h"; sourceTree = "<group>"; };
+		98E22FE1176638FB00115166 /* UIImage+Drawn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawn.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +101,7 @@
 		2FED7EBE1761817C009C4001 = {
 			isa = PBXGroup;
 			children = (
-				98E22FAB17662D4A00115166 /* EMCocoaTouchToolbox */,
+				98E22FD3176638FB00115166 /* EMCocoaTouchToolbox */,
 				2FED7ED01761817C009C4001 /* EMCocoaTouchToolbox_Demo */,
 				2FED7EEE1761817C009C4001 /* EMCocoaTouchToolbox_DemoTests */,
 				2FED7EC91761817C009C4001 /* Frameworks */,
@@ -171,20 +174,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98E22FAB17662D4A00115166 /* EMCocoaTouchToolbox */ = {
+		98E22FD3176638FB00115166 /* EMCocoaTouchToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				98E22FAC17662D4A00115166 /* EMCocoaTouchToolbox.h */,
-				98E22FAD17662D4A00115166 /* EMIndexButton.h */,
-				98E22FAE17662D4A00115166 /* EMIndexButton.m */,
-				98E22FAF17662D4A00115166 /* EMKeyButton.h */,
-				98E22FB017662D4A00115166 /* EMKeyButton.m */,
-				98E22FB117662D4A00115166 /* UIBarButtonItem+imagedBarButtonItem.h */,
-				98E22FB217662D4A00115166 /* UIBarButtonItem+imagedBarButtonItem.m */,
-				98E22FB317662D4A00115166 /* UIButton+imagedButton.h */,
-				98E22FB417662D4A00115166 /* UIButton+imagedButton.m */,
+				98E22FD4176638FB00115166 /* EMCocoaTouchToolbox.h */,
+				98E22FD5176638FB00115166 /* UIBarButtonItemEx */,
+				98E22FD8176638FB00115166 /* UIButtonEx */,
+				98E22FDF176638FB00115166 /* UIImageEX */,
 			);
 			path = EMCocoaTouchToolbox;
+			sourceTree = "<group>";
+		};
+		98E22FD5176638FB00115166 /* UIBarButtonItemEx */ = {
+			isa = PBXGroup;
+			children = (
+				98E22FD6176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.h */,
+				98E22FD7176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m */,
+			);
+			path = UIBarButtonItemEx;
+			sourceTree = "<group>";
+		};
+		98E22FD8176638FB00115166 /* UIButtonEx */ = {
+			isa = PBXGroup;
+			children = (
+				98E22FD9176638FB00115166 /* EMIndexButton.h */,
+				98E22FDA176638FB00115166 /* EMIndexButton.m */,
+				98E22FDB176638FB00115166 /* EMKeyButton.h */,
+				98E22FDC176638FB00115166 /* EMKeyButton.m */,
+				98E22FDD176638FB00115166 /* UIButton+imagedButton.h */,
+				98E22FDE176638FB00115166 /* UIButton+imagedButton.m */,
+			);
+			path = UIButtonEx;
+			sourceTree = "<group>";
+		};
+		98E22FDF176638FB00115166 /* UIImageEX */ = {
+			isa = PBXGroup;
+			children = (
+				98E22FE0176638FB00115166 /* UIImage+Drawn.h */,
+				98E22FE1176638FB00115166 /* UIImage+Drawn.m */,
+			);
+			path = UIImageEX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,10 +329,11 @@
 				2FED7ED71761817C009C4001 /* main.m in Sources */,
 				2FED7EDB1761817C009C4001 /* EMAppDelegate.m in Sources */,
 				2FED7F1017618798009C4001 /* EMViewController.m in Sources */,
-				98E22FB517662D4A00115166 /* EMIndexButton.m in Sources */,
-				98E22FB617662D4A00115166 /* EMKeyButton.m in Sources */,
-				98E22FB717662D4A00115166 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */,
-				98E22FB817662D4A00115166 /* UIButton+imagedButton.m in Sources */,
+				98E22FE2176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */,
+				98E22FE3176638FB00115166 /* EMIndexButton.m in Sources */,
+				98E22FE4176638FB00115166 /* EMKeyButton.m in Sources */,
+				98E22FE5176638FB00115166 /* UIButton+imagedButton.m in Sources */,
+				98E22FE6176638FB00115166 /* UIImage+Drawn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +435,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Prefix.pch";
 				INFOPLIST_FILE = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,6 +447,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Prefix.pch";
 				INFOPLIST_FILE = "EMCocoaTouchToolbox_Demo/EMCocoaTouchToolbox_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -8,9 +8,15 @@
 #ifndef EMCocoaTouchToolbox_Demo_EMCocoaTouchToolbox_h
 #define EMCocoaTouchToolbox_Demo_EMCocoaTouchToolbox_h
 
-#import "EMIndexButton.h"
-#import "EMKeyButton.h"
-#import "UIBarButtonItem+imagedBarButtonItem.h"
-#import "UIButton+imagedButton.h"
+// UIBarButtonItemEx
+#import "UIBarButtonItemEx/UIBarButtonItem+imagedBarButtonItem.h"
+
+// UIButtonEx
+#import "UIButtonEx/EMIndexButton.h"
+#import "UIButtonEx/EMKeyButton.h"
+#import "UIButtonEx/UIButton+imagedButton.h"
+
+// UIImageEx
+#import "UIImageEX/UIImage+Drawn.h"
 
 #endif
