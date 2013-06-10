@@ -10,6 +10,14 @@
 @implementation UIButton (imagedButton)
 
 + (UIButton *)buttonWithImage:(UIImage *)image_
+{
+    return [self buttonWithImage:image_
+                highlightedImage:nil
+                          target:nil
+        selectorForTouchUpInside:nil];
+}
+
++ (UIButton *)buttonWithImage:(UIImage *)image_
              highlightedImage:(UIImage *)highlightedImage_
 {
     return [self buttonWithImage:image_

@@ -9,6 +9,8 @@
 
 @interface UIButton (imagedButton)
 
++ (UIButton *)buttonWithImage:(UIImage *)image;
+
 + (UIButton *)buttonWithImage:(UIImage *)image
              highlightedImage:(UIImage *)highlightedImage;
 
