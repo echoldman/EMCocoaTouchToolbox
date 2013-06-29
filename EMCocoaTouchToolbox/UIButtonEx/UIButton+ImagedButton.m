@@ -7,7 +7,7 @@
 
 #import "UIButton+imagedButton.h"
 
-@implementation UIButton (imagedButton)
+@implementation UIButton (ImagedButton)
 
 + (UIButton *)buttonWithImage:(UIImage *)image_
 {

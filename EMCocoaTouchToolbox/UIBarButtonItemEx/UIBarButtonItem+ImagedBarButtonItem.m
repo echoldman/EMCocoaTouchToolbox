@@ -5,10 +5,10 @@
 //  Copyright (c) 2013年 Echoldman. All rights reserved.
 //
 
-#import "UIBarButtonItem+imagedBarButtonItem.h"
-#import "UIButton+imagedButton.h"
+#import "UIBarButtonItem+ImagedBarButtonItem.h"
+#import "UIButton+ImagedButton.h"
 
-@implementation UIBarButtonItem (imagedBarButtonItem)
+@implementation UIBarButtonItem (ImagedBarButtonItem)
 
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image_
                   highlightedImage:(UIImage *)highlightedImage_

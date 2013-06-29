@@ -22,11 +22,20 @@
 		2FED7EF31761817C009C4001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FED7EF11761817C009C4001 /* InfoPlist.strings */; };
 		2FED7EF61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */; };
 		2FED7F1017618798009C4001 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED7F0F17618798009C4001 /* EMViewController.m */; };
-		98E22FE2176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FD7176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m */; };
-		98E22FE3176638FB00115166 /* EMIndexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FDA176638FB00115166 /* EMIndexButton.m */; };
-		98E22FE4176638FB00115166 /* EMKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FDC176638FB00115166 /* EMKeyButton.m */; };
-		98E22FE5176638FB00115166 /* UIButton+imagedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FDE176638FB00115166 /* UIButton+imagedButton.m */; };
-		98E22FE6176638FB00115166 /* UIImage+Drawn.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E22FE1176638FB00115166 /* UIImage+Drawn.m */; };
+		98C0A09F177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A08B177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m */; };
+		98C0A0A0177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A08B177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m */; };
+		98C0A0A1177F29DC00C5F2D9 /* EMIndexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A08F177F29DC00C5F2D9 /* EMIndexButton.m */; };
+		98C0A0A2177F29DC00C5F2D9 /* EMIndexButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A08F177F29DC00C5F2D9 /* EMIndexButton.m */; };
+		98C0A0A3177F29DC00C5F2D9 /* EMKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A091177F29DC00C5F2D9 /* EMKeyButton.m */; };
+		98C0A0A4177F29DC00C5F2D9 /* EMKeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A091177F29DC00C5F2D9 /* EMKeyButton.m */; };
+		98C0A0A5177F29DC00C5F2D9 /* UIButton+ImagedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A093177F29DC00C5F2D9 /* UIButton+ImagedButton.m */; };
+		98C0A0A6177F29DC00C5F2D9 /* UIButton+ImagedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A093177F29DC00C5F2D9 /* UIButton+ImagedButton.m */; };
+		98C0A0A7177F29DC00C5F2D9 /* UIImage+Drawn.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A097177F29DC00C5F2D9 /* UIImage+Drawn.m */; };
+		98C0A0A8177F29DC00C5F2D9 /* UIImage+Drawn.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A097177F29DC00C5F2D9 /* UIImage+Drawn.m */; };
+		98C0A0A9177F29DC00C5F2D9 /* UIView+Origin.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A09B177F29DC00C5F2D9 /* UIView+Origin.m */; };
+		98C0A0AA177F29DC00C5F2D9 /* UIView+Origin.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A09B177F29DC00C5F2D9 /* UIView+Origin.m */; };
+		98C0A0AB177F29DC00C5F2D9 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A09D177F29DC00C5F2D9 /* UIView+Size.m */; };
+		98C0A0AC177F29DC00C5F2D9 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A09D177F29DC00C5F2D9 /* UIView+Size.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,17 +70,25 @@
 		2FED7EF51761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMCocoaTouchToolbox_DemoTests.m; sourceTree = "<group>"; };
 		2FED7F0E17618798009C4001 /* EMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
 		2FED7F0F17618798009C4001 /* EMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
-		98E22FD4176638FB00115166 /* EMCocoaTouchToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCocoaTouchToolbox.h; sourceTree = "<group>"; };
-		98E22FD6176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+imagedBarButtonItem.h"; sourceTree = "<group>"; };
-		98E22FD7176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+imagedBarButtonItem.m"; sourceTree = "<group>"; };
-		98E22FD9176638FB00115166 /* EMIndexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMIndexButton.h; sourceTree = "<group>"; };
-		98E22FDA176638FB00115166 /* EMIndexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMIndexButton.m; sourceTree = "<group>"; };
-		98E22FDB176638FB00115166 /* EMKeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeyButton.h; sourceTree = "<group>"; };
-		98E22FDC176638FB00115166 /* EMKeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeyButton.m; sourceTree = "<group>"; };
-		98E22FDD176638FB00115166 /* UIButton+imagedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+imagedButton.h"; sourceTree = "<group>"; };
-		98E22FDE176638FB00115166 /* UIButton+imagedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+imagedButton.m"; sourceTree = "<group>"; };
-		98E22FE0176638FB00115166 /* UIImage+Drawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawn.h"; sourceTree = "<group>"; };
-		98E22FE1176638FB00115166 /* UIImage+Drawn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawn.m"; sourceTree = "<group>"; };
+		98C0A088177F29DC00C5F2D9 /* EMCocoaTouchToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCocoaTouchToolbox.h; sourceTree = "<group>"; };
+		98C0A08A177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ImagedBarButtonItem.h"; sourceTree = "<group>"; };
+		98C0A08B177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ImagedBarButtonItem.m"; sourceTree = "<group>"; };
+		98C0A08C177F29DC00C5F2D9 /* UIBarButtonItemEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBarButtonItemEx.h; sourceTree = "<group>"; };
+		98C0A08E177F29DC00C5F2D9 /* EMIndexButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMIndexButton.h; sourceTree = "<group>"; };
+		98C0A08F177F29DC00C5F2D9 /* EMIndexButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMIndexButton.m; sourceTree = "<group>"; };
+		98C0A090177F29DC00C5F2D9 /* EMKeyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeyButton.h; sourceTree = "<group>"; };
+		98C0A091177F29DC00C5F2D9 /* EMKeyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeyButton.m; sourceTree = "<group>"; };
+		98C0A092177F29DC00C5F2D9 /* UIButton+ImagedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagedButton.h"; sourceTree = "<group>"; };
+		98C0A093177F29DC00C5F2D9 /* UIButton+ImagedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagedButton.m"; sourceTree = "<group>"; };
+		98C0A094177F29DC00C5F2D9 /* UIButtonEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonEx.h; sourceTree = "<group>"; };
+		98C0A096177F29DC00C5F2D9 /* UIImage+Drawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Drawn.h"; sourceTree = "<group>"; };
+		98C0A097177F29DC00C5F2D9 /* UIImage+Drawn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Drawn.m"; sourceTree = "<group>"; };
+		98C0A098177F29DC00C5F2D9 /* UIImageEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEx.h; sourceTree = "<group>"; };
+		98C0A09A177F29DC00C5F2D9 /* UIView+Origin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Origin.h"; sourceTree = "<group>"; };
+		98C0A09B177F29DC00C5F2D9 /* UIView+Origin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Origin.m"; sourceTree = "<group>"; };
+		98C0A09C177F29DC00C5F2D9 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		98C0A09D177F29DC00C5F2D9 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		98C0A09E177F29DC00C5F2D9 /* UIViewEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEx.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +118,7 @@
 		2FED7EBE1761817C009C4001 = {
 			isa = PBXGroup;
 			children = (
-				98E22FD3176638FB00115166 /* EMCocoaTouchToolbox */,
+				98C0A087177F29DC00C5F2D9 /* EMCocoaTouchToolbox */,
 				2FED7ED01761817C009C4001 /* EMCocoaTouchToolbox_Demo */,
 				2FED7EEE1761817C009C4001 /* EMCocoaTouchToolbox_DemoTests */,
 				2FED7EC91761817C009C4001 /* Frameworks */,
@@ -174,46 +191,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98E22FD3176638FB00115166 /* EMCocoaTouchToolbox */ = {
+		98C0A087177F29DC00C5F2D9 /* EMCocoaTouchToolbox */ = {
 			isa = PBXGroup;
 			children = (
-				98E22FD4176638FB00115166 /* EMCocoaTouchToolbox.h */,
-				98E22FD5176638FB00115166 /* UIBarButtonItemEx */,
-				98E22FD8176638FB00115166 /* UIButtonEx */,
-				98E22FDF176638FB00115166 /* UIImageEX */,
+				98C0A088177F29DC00C5F2D9 /* EMCocoaTouchToolbox.h */,
+				98C0A089177F29DC00C5F2D9 /* UIBarButtonItemEx */,
+				98C0A08D177F29DC00C5F2D9 /* UIButtonEx */,
+				98C0A095177F29DC00C5F2D9 /* UIImageEX */,
+				98C0A099177F29DC00C5F2D9 /* UIViewEx */,
 			);
 			path = EMCocoaTouchToolbox;
 			sourceTree = "<group>";
 		};
-		98E22FD5176638FB00115166 /* UIBarButtonItemEx */ = {
+		98C0A089177F29DC00C5F2D9 /* UIBarButtonItemEx */ = {
 			isa = PBXGroup;
 			children = (
-				98E22FD6176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.h */,
-				98E22FD7176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m */,
+				98C0A08A177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.h */,
+				98C0A08B177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m */,
+				98C0A08C177F29DC00C5F2D9 /* UIBarButtonItemEx.h */,
 			);
 			path = UIBarButtonItemEx;
 			sourceTree = "<group>";
 		};
-		98E22FD8176638FB00115166 /* UIButtonEx */ = {
+		98C0A08D177F29DC00C5F2D9 /* UIButtonEx */ = {
 			isa = PBXGroup;
 			children = (
-				98E22FD9176638FB00115166 /* EMIndexButton.h */,
-				98E22FDA176638FB00115166 /* EMIndexButton.m */,
-				98E22FDB176638FB00115166 /* EMKeyButton.h */,
-				98E22FDC176638FB00115166 /* EMKeyButton.m */,
-				98E22FDD176638FB00115166 /* UIButton+imagedButton.h */,
-				98E22FDE176638FB00115166 /* UIButton+imagedButton.m */,
+				98C0A08E177F29DC00C5F2D9 /* EMIndexButton.h */,
+				98C0A08F177F29DC00C5F2D9 /* EMIndexButton.m */,
+				98C0A090177F29DC00C5F2D9 /* EMKeyButton.h */,
+				98C0A091177F29DC00C5F2D9 /* EMKeyButton.m */,
+				98C0A092177F29DC00C5F2D9 /* UIButton+ImagedButton.h */,
+				98C0A093177F29DC00C5F2D9 /* UIButton+ImagedButton.m */,
+				98C0A094177F29DC00C5F2D9 /* UIButtonEx.h */,
 			);
 			path = UIButtonEx;
 			sourceTree = "<group>";
 		};
-		98E22FDF176638FB00115166 /* UIImageEX */ = {
+		98C0A095177F29DC00C5F2D9 /* UIImageEX */ = {
 			isa = PBXGroup;
 			children = (
-				98E22FE0176638FB00115166 /* UIImage+Drawn.h */,
-				98E22FE1176638FB00115166 /* UIImage+Drawn.m */,
+				98C0A096177F29DC00C5F2D9 /* UIImage+Drawn.h */,
+				98C0A097177F29DC00C5F2D9 /* UIImage+Drawn.m */,
+				98C0A098177F29DC00C5F2D9 /* UIImageEx.h */,
 			);
 			path = UIImageEX;
+			sourceTree = "<group>";
+		};
+		98C0A099177F29DC00C5F2D9 /* UIViewEx */ = {
+			isa = PBXGroup;
+			children = (
+				98C0A09A177F29DC00C5F2D9 /* UIView+Origin.h */,
+				98C0A09B177F29DC00C5F2D9 /* UIView+Origin.m */,
+				98C0A09C177F29DC00C5F2D9 /* UIView+Size.h */,
+				98C0A09D177F29DC00C5F2D9 /* UIView+Size.m */,
+				98C0A09E177F29DC00C5F2D9 /* UIViewEx.h */,
+			);
+			path = UIViewEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,11 +362,13 @@
 				2FED7ED71761817C009C4001 /* main.m in Sources */,
 				2FED7EDB1761817C009C4001 /* EMAppDelegate.m in Sources */,
 				2FED7F1017618798009C4001 /* EMViewController.m in Sources */,
-				98E22FE2176638FB00115166 /* UIBarButtonItem+imagedBarButtonItem.m in Sources */,
-				98E22FE3176638FB00115166 /* EMIndexButton.m in Sources */,
-				98E22FE4176638FB00115166 /* EMKeyButton.m in Sources */,
-				98E22FE5176638FB00115166 /* UIButton+imagedButton.m in Sources */,
-				98E22FE6176638FB00115166 /* UIImage+Drawn.m in Sources */,
+				98C0A09F177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m in Sources */,
+				98C0A0A1177F29DC00C5F2D9 /* EMIndexButton.m in Sources */,
+				98C0A0A3177F29DC00C5F2D9 /* EMKeyButton.m in Sources */,
+				98C0A0A5177F29DC00C5F2D9 /* UIButton+ImagedButton.m in Sources */,
+				98C0A0A7177F29DC00C5F2D9 /* UIImage+Drawn.m in Sources */,
+				98C0A0A9177F29DC00C5F2D9 /* UIView+Origin.m in Sources */,
+				98C0A0AB177F29DC00C5F2D9 /* UIView+Size.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +377,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FED7EF61761817C009C4001 /* EMCocoaTouchToolbox_DemoTests.m in Sources */,
+				98C0A0A0177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m in Sources */,
+				98C0A0A2177F29DC00C5F2D9 /* EMIndexButton.m in Sources */,
+				98C0A0A4177F29DC00C5F2D9 /* EMKeyButton.m in Sources */,
+				98C0A0A6177F29DC00C5F2D9 /* UIButton+ImagedButton.m in Sources */,
+				98C0A0A8177F29DC00C5F2D9 /* UIImage+Drawn.m in Sources */,
+				98C0A0AA177F29DC00C5F2D9 /* UIView+Origin.m in Sources */,
+				98C0A0AC177F29DC00C5F2D9 /* UIView+Size.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

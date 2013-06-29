@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIBarButtonItem (imagedBarButtonItem)
+@interface UIBarButtonItem (ImagedBarButtonItem)
 
 + (UIBarButtonItem *)itemWithImage:(UIImage *)image
                   highlightedImage:(UIImage *)highlightedImage

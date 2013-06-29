@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIButton (imagedButton)
+@interface UIButton (ImagedButton)
 
 + (UIButton *)buttonWithImage:(UIImage *)image;
 
