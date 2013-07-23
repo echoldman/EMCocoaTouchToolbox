@@ -8,6 +8,6 @@
 #ifndef UIBarButtonItemEx_h
 #define UIBarButtonItemEx_h
 
-#import "UIBarButtonItem+ImagedBarButtonItem"
+#import "UIBarButtonItem+ImagedBarButtonItem.h"
 
 #endif

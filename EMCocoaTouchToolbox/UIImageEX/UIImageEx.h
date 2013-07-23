@@ -8,6 +8,7 @@
 #ifndef UIImageEx_h
 #define UIImageEx_h
 
-
+#import "UIImage+Drawn.h"
+#import "UIImage+RoundedImage.h"
 
 #endif
