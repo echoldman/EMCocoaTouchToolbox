@@ -49,4 +49,24 @@
     return image;
 }
 
+- (UIImage *)scaledImageByWidth:(CGFloat)width_
+{
+    CGSize newSize;
+    newSize.width = width_;
+    newSize.height = self.size.height * newSize.width/self.size.height;
+    newSize.height = floorf(newSize.height);
+    
+    if (UIDevice.currentDevice.systemVersion.floatValue >= 4.0) {
+        UIGraphicsBeginImageContextWithOptions(newSize, NO, self.scale);
+    }
+    else {
+        UIGraphicsBeginImageContext(newSize);
+    }
+    [self drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
 @end
