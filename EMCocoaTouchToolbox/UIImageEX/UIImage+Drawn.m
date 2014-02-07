@@ -379,4 +379,30 @@
     return newImage;
 }
 
++ (UIImage *)clearImageWithSize:(CGSize)size_
+{
+    CGFloat systemVer = [[[UIDevice currentDevice] systemVersion] floatValue];
+    CGFloat scale = systemVer >= 4.0 ? UIScreen.mainScreen.scale : 1.0;
+    
+    return [self clearImageWithSize:size_ scale:scale];
+}
+
++ (UIImage *)clearImageWithSize:(CGSize)size_
+                          scale:(CGFloat)scale_
+{
+    CGFloat systemVer = [[[UIDevice currentDevice] systemVersion] floatValue];
+    
+    if ( systemVer >= 4.0 ) {
+        UIGraphicsBeginImageContextWithOptions(size_, NO, scale_);
+    }
+    else {
+        UIGraphicsBeginImageContext(size_);
+    }
+    
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return newImage;
+}
+
 @end

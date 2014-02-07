@@ -72,4 +72,9 @@
                  textColor:(UIColor *)textColor
                 textOrigin:(CGPoint)textOrigin;
 
++ (UIImage *)clearImageWithSize:(CGSize)size;
+
++ (UIImage *)clearImageWithSize:(CGSize)size
+                          scale:(CGFloat)scale;
+
 @end
