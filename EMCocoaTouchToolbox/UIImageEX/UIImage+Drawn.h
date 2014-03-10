@@ -69,6 +69,10 @@
 
 - (UIImage *)imageWithText:(NSString *)text
                       font:(UIFont *)font
+                 textColor:(UIColor *)textColor;
+
+- (UIImage *)imageWithText:(NSString *)text
+                      font:(UIFont *)font
                  textColor:(UIColor *)textColor
                 textOrigin:(CGPoint)textOrigin;
 
@@ -76,5 +80,12 @@
 
 + (UIImage *)clearImageWithSize:(CGSize)size
                           scale:(CGFloat)scale;
+
++ (UIImage *)imageWithCGColor:(CGColorRef)cgColor
+                       size:(CGSize)size;
+
++ (UIImage *)imageWithCGColor:(CGColorRef)cgColor
+                       size:(CGSize)size
+                      scale:(CGFloat)scale;
 
 @end

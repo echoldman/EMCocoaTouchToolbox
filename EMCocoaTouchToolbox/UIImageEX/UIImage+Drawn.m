@@ -349,6 +349,20 @@
 - (UIImage *)imageWithText:(NSString *)text_
                       font:(UIFont *)font_
                  textColor:(UIColor *)textColor_
+{
+    CGSize selfSize = self.size;
+    CGSize textSize = [text_ sizeWithFont:font_
+                        constrainedToSize:selfSize
+                            lineBreakMode:NSLineBreakByWordWrapping];
+    return [self imageWithText:text_
+                          font:font_
+                     textColor:textColor_
+                    textOrigin:CGPointMake((selfSize.width-textSize.width)/2, (selfSize.height-textSize.height)/2)];
+}
+
+- (UIImage *)imageWithText:(NSString *)text_
+                      font:(UIFont *)font_
+                 textColor:(UIColor *)textColor_
                 textOrigin:(CGPoint)textOrigin_
 {
     if ( text_ == nil ) return nil;
@@ -399,10 +413,47 @@
         UIGraphicsBeginImageContext(size_);
     }
     
-    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIImage *clearImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
-    return newImage;
+    return clearImage;
+}
+
++ (UIImage *)imageWithCGColor:(CGColorRef)cgColor_
+                         size:(CGSize)size_
+{
+    CGFloat systemVer = [[[UIDevice currentDevice] systemVersion] floatValue];
+    CGFloat scale = systemVer >= 4.0 ? UIScreen.mainScreen.scale : 1.0;
+    
+    return [self imageWithCGColor:cgColor_ size:size_ scale:scale];
+}
+
++ (UIImage *)imageWithCGColor:(CGColorRef)cgColor_
+                       size:(CGSize)size_
+                      scale:(CGFloat)scale_
+{
+    CGFloat systemVer = [[[UIDevice currentDevice] systemVersion] floatValue];
+    
+    if ( systemVer >= 4.0 ) {
+        UIGraphicsBeginImageContextWithOptions(size_, NO, scale_);
+    }
+    else {
+        UIGraphicsBeginImageContext(size_);
+    }
+    
+    CGRect rect = CGRectZero;
+    rect.size = size_;
+    
+    UIColor *color = [UIColor colorWithCGColor:cgColor_];
+    
+    UIBezierPath* rectanglePath = [UIBezierPath bezierPathWithRect:rect];
+    [color setFill];
+    [rectanglePath fill];
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
 }
 
 @end
