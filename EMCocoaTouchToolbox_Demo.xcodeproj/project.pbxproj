@@ -38,6 +38,7 @@
 		98C0A0AA177F29DC00C5F2D9 /* UIView+Origin.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A09B177F29DC00C5F2D9 /* UIView+Origin.m */; };
 		98C0A0AB177F29DC00C5F2D9 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A09D177F29DC00C5F2D9 /* UIView+Size.m */; };
 		98C0A0AC177F29DC00C5F2D9 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C0A09D177F29DC00C5F2D9 /* UIView+Size.m */; };
+		B6EA339F1905100F009988DF /* UIButton+GroupSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA339E1905100F009988DF /* UIButton+GroupSelected.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		98C0A09C177F29DC00C5F2D9 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
 		98C0A09D177F29DC00C5F2D9 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 		98C0A09E177F29DC00C5F2D9 /* UIViewEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewEx.h; sourceTree = "<group>"; };
+		B6EA339D1905100F009988DF /* UIButton+GroupSelected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GroupSelected.h"; sourceTree = "<group>"; };
+		B6EA339E1905100F009988DF /* UIButton+GroupSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GroupSelected.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +227,8 @@
 				98C0A08F177F29DC00C5F2D9 /* EMIndexButton.m */,
 				98C0A090177F29DC00C5F2D9 /* EMKeyButton.h */,
 				98C0A091177F29DC00C5F2D9 /* EMKeyButton.m */,
+				B6EA339D1905100F009988DF /* UIButton+GroupSelected.h */,
+				B6EA339E1905100F009988DF /* UIButton+GroupSelected.m */,
 				98C0A092177F29DC00C5F2D9 /* UIButton+ImagedButton.h */,
 				98C0A093177F29DC00C5F2D9 /* UIButton+ImagedButton.m */,
 				98C0A094177F29DC00C5F2D9 /* UIButtonEx.h */,
@@ -371,6 +376,7 @@
 				98C0A09F177F29DC00C5F2D9 /* UIBarButtonItem+ImagedBarButtonItem.m in Sources */,
 				98C0A0A1177F29DC00C5F2D9 /* EMIndexButton.m in Sources */,
 				98C0A0A3177F29DC00C5F2D9 /* EMKeyButton.m in Sources */,
+				B6EA339F1905100F009988DF /* UIButton+GroupSelected.m in Sources */,
 				98C0A0A5177F29DC00C5F2D9 /* UIButton+ImagedButton.m in Sources */,
 				98C0A0A7177F29DC00C5F2D9 /* UIImage+Drawn.m in Sources */,
 				98C0A0A9177F29DC00C5F2D9 /* UIView+Origin.m in Sources */,
