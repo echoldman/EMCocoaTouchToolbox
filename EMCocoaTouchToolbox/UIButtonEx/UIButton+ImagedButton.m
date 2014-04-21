@@ -2,7 +2,7 @@
 //  UIButton+imagedButton.m
 //
 //  Created by Echoldman on 13-5-27.
-//  Copyright (c) 2013年 Echoldman. All rights reserved.
+//  Copyright (c) 2013 Echoldman. All rights reserved.
 //
 
 #import "UIButton+imagedButton.h"

@@ -2,7 +2,7 @@
 //  UIView+Size.h
 //
 //  Created by Echoldman on 12-5-16.
-//  Copyright (c) 2012年 Echoldman. All rights reserved.
+//  Copyright (c) 2012 Echoldman. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

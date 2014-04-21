@@ -3,7 +3,7 @@
 //  RoundRectImage
 //
 //  Created by Echoldman on 13-4-17.
-//  Copyright (c) 2013年 Echoldman. All rights reserved.
+//  Copyright (c) 2013 Echoldman. All rights reserved.
 //
 
 #import "UIImage+RoundedImage.h"

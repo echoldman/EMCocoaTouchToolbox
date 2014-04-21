@@ -3,7 +3,7 @@
 //  ColorScheme
 //
 //  Created by Echoldman on 13-6-10.
-//  Copyright (c) 2013年 Echoldman. All rights reserved.
+//  Copyright (c) 2013 Echoldman. All rights reserved.
 //
 
 #import "UIImage+Drawn.h"
