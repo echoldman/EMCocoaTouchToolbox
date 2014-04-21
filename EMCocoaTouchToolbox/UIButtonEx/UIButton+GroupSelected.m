@@ -25,15 +25,6 @@
 
 #define UIButton_EX_Notification_LastSelectedButtonDidChange    @"UIButton_EX_Notification_LastSelectedButtonDidChange"
 
-- (void)dealloc
-{
-    if (self.group) {
-        [[NSNotificationCenter defaultCenter] removeObserver:self];
-    }
-    
-    [super dealloc];
-}
-
 - (BOOL)lastSelectedButton
 {
     NSNumber *object = objc_getAssociatedObject(self, UIButton_EX_lastSelectedButton);
