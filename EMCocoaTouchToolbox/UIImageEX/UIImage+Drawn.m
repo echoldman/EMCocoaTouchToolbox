@@ -1,14 +1,45 @@
 //
 //  UIImage+Drawn.m
-//  ColorScheme
 //
 //  Created by Echoldman on 13-6-10.
-//  Copyright (c) 2013 Echoldman. All rights reserved.
 //
 
 #import "UIImage+Drawn.h"
 
 @implementation UIImage (Drawn)
+
+- (UIImage *)imageInRect:(CGRect)rect
+{
+    CGPoint origin = rect.origin;
+    CGSize size = rect.size;
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 4.0) {
+        UIGraphicsBeginImageContextWithOptions(size, NO, self.scale);
+    }
+    else {
+        UIGraphicsBeginImageContext(size);
+    }
+    
+    //// General Declarations
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    
+    //// Image Declarations
+    UIColor* imagePattern = [UIColor colorWithPatternImage: self];
+    
+    //// Oval Drawing
+    UIBezierPath* ovalPath = [UIBezierPath bezierPathWithRect: CGRectMake(0, 0, size.width, size.height)];
+    CGContextSaveGState(context);
+    CGContextSetPatternPhase(context, CGSizeMake(origin.x, origin.y));
+    [imagePattern setFill];
+    [ovalPath fill];
+    CGContextRestoreGState(context);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 
 - (UIImage *)scaledImageByWidth:(CGFloat)width_
 {

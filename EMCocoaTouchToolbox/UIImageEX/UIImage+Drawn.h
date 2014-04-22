@@ -1,14 +1,14 @@
 //
 //  UIImage+Drawn.h
-//  ColorScheme
 //
 //  Created by Echoldman on 13-6-10.
-//  Copyright (c) 2013 Echoldman. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Drawn)
+
+- (UIImage *)imageInRect:(CGRect)rect;
 
 - (UIImage *)scaledImageByWidth:(CGFloat)width;
 
