@@ -25,6 +25,15 @@
 
 #define UIButton_EX_Notification_LastSelectedButtonDidChange    @"UIButton_EX_Notification_LastSelectedButtonDidChange"
 
+- (void)dealloc
+{
+    if (self.group) {
+        [[NSNotificationCenter defaultCenter] removeObserver:self];
+    }
+    
+    [super dealloc];
+}
+
 - (BOOL)lastSelectedButton
 {
     NSNumber *object = objc_getAssociatedObject(self, UIButton_EX_lastSelectedButton);
@@ -115,18 +124,20 @@
 
 - (void)onTouchUpInside:(UIButton *)sender
 {
-    NSDictionary *userInfo = @{@"sender": self};
-    
-    [[NSNotificationCenter defaultCenter] postNotificationName:UIButton_EX_Notification_LastSelectedButtonDidChange
-                                                        object:nil
-                                                      userInfo:userInfo];
-    
-    self.selected = !(self.selected);
-    
-    NSString *selectorString = (NSString *)objc_getAssociatedObject(self, UIButton_EX_selectorForTouchUpInside);
-    SEL selector = NSSelectorFromString(selectorString);
-    id target = objc_getAssociatedObject(self, UIButton_EX_target);
-    objc_msgSend(target, selector, self);
+    if (!(self.selected)) {
+        NSDictionary *userInfo = @{@"sender": self};
+        
+        [[NSNotificationCenter defaultCenter] postNotificationName:UIButton_EX_Notification_LastSelectedButtonDidChange
+                                                            object:nil
+                                                          userInfo:userInfo];
+        
+        self.selected = !(self.selected);
+        
+        NSString *selectorString = (NSString *)objc_getAssociatedObject(self, UIButton_EX_selectorForTouchUpInside);
+        SEL selector = NSSelectorFromString(selectorString);
+        id target = objc_getAssociatedObject(self, UIButton_EX_target);
+        objc_msgSend(target, selector, self);
+    }
 }
 
 - (void)onLastSelectedButtonDidChange:(NSNotification *)notification
