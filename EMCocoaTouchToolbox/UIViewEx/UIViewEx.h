@@ -8,6 +8,7 @@
 #ifndef UIViewEx_h
 #define UIViewEx_h
 
+#import "UIView+Index.h"
 #import "UIView+Origin.h"
 #import "UIView+Size.h"
 

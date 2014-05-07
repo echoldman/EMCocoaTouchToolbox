@@ -10,6 +10,7 @@
 
 #import "UIBarButtonItemEx/UIBarButtonItemEx.h"
 #import "UIButtonEx/UIButtonEx.h"
+#import "UIColor/UIColorEx.h"
 #import "UIImageEX/UIImageEx.h"
 #import "UIViewEx/UIViewEx.h"
 

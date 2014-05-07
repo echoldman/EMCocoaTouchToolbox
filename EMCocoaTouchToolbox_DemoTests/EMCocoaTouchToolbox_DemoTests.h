@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Echoldman. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface EMCocoaTouchToolbox_DemoTests : SenTestCase
+@interface EMCocoaTouchToolbox_DemoTests : XCTestCase
 
 @end
