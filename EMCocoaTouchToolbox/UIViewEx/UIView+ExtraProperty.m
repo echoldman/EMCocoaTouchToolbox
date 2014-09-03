@@ -5,7 +5,7 @@
 //  Copyright (c) 2014 Echoldman. All rights reserved.
 //
 
-#import "UIView+Index.h"
+#import "UIView+ExtraProperty.h"
 #import <objc/runtime.h>
 
 #define UIView_ExtraProperty_index  "UIView_ExtraProperty_index"
