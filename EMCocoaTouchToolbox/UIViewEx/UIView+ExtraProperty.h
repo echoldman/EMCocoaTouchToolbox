@@ -7,8 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Index)
+@interface UIView (ExtraProperty)
 
 @property (nonatomic, assign, getter = index, setter = setIndex:) NSUInteger index;
+@property (nonatomic, copy, getter = name, setter = setName:) NSString *name;
 
 @end
