@@ -136,7 +136,7 @@
         NSString *selectorString = (NSString *)objc_getAssociatedObject(self, UIButton_EX_selectorForTouchUpInside);
         SEL selector = NSSelectorFromString(selectorString);
         id target = objc_getAssociatedObject(self, UIButton_EX_target);
-        objc_msgSend(target, selector, self);
+        ((void(*)(id, SEL, id))objc_msgSend)(target, selector, self);
     }
 }
 
